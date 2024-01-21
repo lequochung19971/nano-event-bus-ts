@@ -1,5 +1,5 @@
 {
-  "name": "nano-event-bus",
+  "name": "nano-event-bus-ts",
   "version": "0.0.0-development",
   "description": "An Event bus library by typescript",
   "main": "dist/index.js",
