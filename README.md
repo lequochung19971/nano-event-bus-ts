@@ -1,1 +1,1 @@
-# event-bus-ts
+# nano-event-bus

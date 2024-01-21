@@ -1,5 +1,5 @@
 {
-  "name": "event-bus-ts",
+  "name": "nano-event-bus",
   "version": "0.0.0-development",
   "description": "An Event bus library by typescript",
   "main": "dist/index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lequochung19971/event-bus-ts.git"
+    "url": "https://github.com/lequochung19971/nano-event-bus.git"
   },
   "author": "lequochung19971",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lequochung19971/event-bus-ts/issues"
+    "url": "https://github.com/lequochung19971/nano-event-bus/issues"
   },
-  "homepage": "https://github.com/lequochung19971/event-bus-ts#readme",
+  "homepage": "https://github.com/lequochung19971/nano-event-bus#readme",
   "devDependencies": {
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^9.2.6",
