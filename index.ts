@@ -11,9 +11,6 @@ type ListenerInfo = {
   handler?: Handler;
 };
 
-/**
- *
- */
 export const createNanoEventBus = () => {
   const emittedEvents = {} as Record<string, any>;
   const listeners = {} as Record<string, Record<string, ListenerInfo>>;
