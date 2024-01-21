@@ -16,18 +16,14 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20
-      - uses: pnpm/action-setup@v2
-        name: Install pnpm
-        with:
-          version: 8
-          run_install: false
+
       - name: Install dependencies
-        run: pnpm install
+        run: npm ci
 
       - name: Build App
-        run: pnpm run build
+        run: npm run build
 
-      - run: pnpm run semantic-release
+      - run: npm run semantic-release
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
