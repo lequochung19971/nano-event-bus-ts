@@ -14,7 +14,6 @@ type ListenerInfo = {
 export const createNanoEventBus = () => {
   const emittedEvents = {} as Record<string, any>;
   const listeners = {} as Record<string, Record<string, ListenerInfo>>;
-  console.log('test release 2');
   /**
    *
    * @param event
