@@ -1,6 +1,6 @@
 {
   "name": "nano-event-bus-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Event bus library by typescript",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
