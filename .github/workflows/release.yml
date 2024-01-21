@@ -27,6 +27,6 @@ jobs:
       - name: Build App
         run: pnpm run build
 
-      - run: npx semantic-release
+      - run: pnpm run semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

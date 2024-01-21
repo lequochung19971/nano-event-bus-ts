@@ -1,16 +1,17 @@
 {
   "name": "event-bus",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "An Event bus library by typescript",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsup index.ts --format cjs,esm --dts"
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lequochung19971/event-bus.git"
+    "url": "https://github.com/lequochung19971/event-bus.git"
   },
   "author": "lequochung19971",
   "license": "MIT",
