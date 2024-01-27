@@ -106,3 +106,11 @@ export const createNanoEventBus = () => {
     emit,
   };
 };
+
+const eventBus = createNanoEventBus();
+
+const removeListener = eventBus.on('test', 'listener', (event) => {
+  // Do something
+});
+
+const removeEvent = eventBus.emit('do-something', { test: 10 });
