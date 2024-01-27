@@ -5,6 +5,17 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "keywords": [
+    "EventEmitter",
+    "EventBus",
+    "Micro Frontend",
+    "Message Bus",
+    "pub/sub",
+    "publish",
+    "subscribe",
+    "emit",
+    "event"
+  ],
   "scripts": {
     "build": "tsup index.ts --format cjs,esm --dts"
   },
