@@ -80,7 +80,7 @@ eventBus.on('test', 'listener', (event) => {
 
 When applying late listening to the emitted event, the first listening will have the lifecycle is `initialized`, the next one will be `emitted`.
 
-When not applying late listening, this lifecycle is always `initialized`.
+When not applying late listening, this lifecycle is always `emitted`.
 
 ### Remove listeners and events
 
