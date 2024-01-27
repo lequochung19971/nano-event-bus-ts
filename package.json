@@ -1,6 +1,6 @@
 {
-  "name": "nano-event-bus-ts1",
-  "version": "6.1.0",
+  "name": "@micro-fe/event-bus-ts",
+  "version": "1.0.0",
   "description": "An Event bus library by typescript",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lequochung19971/nano-event-bus-ts1.git"
+    "url": "https://github.com/lequochung19971/event-bus-ts.git"
   },
   "author": "lequochung19971",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lequochung19971/nano-event-bus-ts1/issues"
+    "url": "https://github.com/lequochung19971/event-bus-ts/issues"
   },
-  "homepage": "https://github.com/lequochung19971/nano-event-bus-ts1#readme",
+  "homepage": "https://github.com/lequochung19971/event-bus-ts#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
